@@ -9,3 +9,19 @@
 body {
   background-color: black;
 }
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#nav-logo {
+  width: 160px;
+  height: 45px;
+  object-fit: contain;
+}
+#hamburger-menu {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}

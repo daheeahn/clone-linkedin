@@ -1,2 +1,9 @@
 @media (max-width: 700px) {
+  nav {
+    padding: 15px 20px;
+    background-color: #fff78ddf;
+  }
+  nav ul {
+    display: none;
+  }
 }
