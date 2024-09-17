@@ -20,6 +20,7 @@ nav {
 #nav-logo {
   width: 160px;
   height: 45px;
+  margin-top: 5px;
   object-fit: contain;
 }
 #hamburger-menu {
