@@ -1,4 +1,5 @@
 @media (min-width: 700px) and (max-width: 1000px) {
+  /* navigation */
   nav {
     padding: 15px 20px;
     background-color: #e07726d9;
@@ -8,19 +9,6 @@
   }
 
   /* header */
-  .linear-gradient-container {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    border-bottom-left-radius: 55px;
-    border-bottom-right-radius: 55px;
-    background-image: linear-gradient(
-      to right,
-      #7abfab 0%,
-      #2d6450 30%,
-      #3c7155 70%
-    );
-  }
   #header-img {
     width: 800px;
     height: 625px;
@@ -29,7 +17,7 @@
   }
   .header-info-text-container {
     position: absolute;
-    top: 15%;
+    top: 20%;
     left: 5%;
     display: flex;
     flex-direction: column;
@@ -50,18 +38,5 @@
     color: #fff;
     margin-bottom: 40px;
     margin-left: 8px;
-  }
-  .header-info-text-container .store-platform-container {
-    display: flex;
-    flex-direction: row;
-  }
-  .header-info-text-container .app-store {
-    width: 130px;
-    height: 40px;
-    margin-right: 10px;
-  }
-  .header-info-text-container .google-play {
-    width: 125px;
-    height: 40px;
   }
 }

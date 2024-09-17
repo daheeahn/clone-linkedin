@@ -9,6 +9,8 @@
 body {
   background-color: black;
 }
+
+/* navigation */
 nav {
   display: flex;
   flex-direction: row;
@@ -24,4 +26,33 @@ nav {
   width: 25px;
   height: 25px;
   object-fit: contain;
+}
+
+/* header */
+.linear-gradient-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 55px;
+  border-bottom-right-radius: 55px;
+  background-image: linear-gradient(
+    to right,
+    #7abfab 0%,
+    #2d6450 30%,
+    #3c7155 70%
+  );
+  overflow: hidden;
+}
+.header-info-text-container .store-platform-container {
+  display: flex;
+  flex-direction: row;
+}
+.header-info-text-container .app-store {
+  width: 130px;
+  height: 40px;
+  margin-right: 10px;
+}
+.header-info-text-container .google-play {
+  width: 125px;
+  height: 40px;
 }

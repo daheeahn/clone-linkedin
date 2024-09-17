@@ -1,9 +1,44 @@
 @media (max-width: 700px) {
+  /* navigation */
   nav {
     padding: 15px 20px;
     background-color: #fff78ddf;
   }
   nav ul {
     display: none;
+  }
+
+  /* header */
+  #header-img {
+    width: 100%;
+    height: auto;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 55px;
+  }
+  .header-info-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    align-self: center;
+    padding-top: 40px;
+    padding-bottom: 70px;
+  }
+  .header-info-text-container .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-left: 8px;
+    font-family: "Trebuchet MS", sans-serif;
+    text-align: center;
+  }
+  .header-info-text-container .content {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: #fff;
+    margin-bottom: 40px;
+    margin-left: 8px;
+    text-align: center;
   }
 }
