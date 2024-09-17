@@ -62,26 +62,11 @@
   }
 
   /* featured-in */
-  .featured-in-container {
-    margin-top: 50px;
-  }
-  .featured-in-title {
-    color: #fff;
-    font-size: 1rem;
-    text-align: center;
-    margin-bottom: 20px;
-    font-family: "Trebuchet MS", sans-serif;
-  }
   .brand-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0px 50px 100px 50px;
-  }
-  .brand-container > img {
-    width: 80px;
-    height: 30px;
-    object-fit: contain;
+    padding: 0px 5% 100px 5%;
   }
 
   .partners-container {

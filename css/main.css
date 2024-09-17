@@ -57,3 +57,20 @@ nav {
   width: 125px;
   height: 40px;
 }
+
+/* featured-in */
+.featured-in-container {
+  margin-top: 50px;
+}
+.featured-in-title {
+  color: #fff;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Trebuchet MS", sans-serif;
+}
+.brand-container > img {
+  width: 100px;
+  height: 40px;
+  object-fit: contain;
+}
