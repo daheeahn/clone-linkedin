@@ -50,4 +50,23 @@
     gap: 40px;
     padding: 0px 5% 100px 5%;
   }
+
+  /* our partners */
+  .partners-container {
+    padding: 0px 5% 0px 10%;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+  }
+  .partners-left {
+    flex: 1;
+  }
+  .partners-right {
+    flex: 1;
+    align-self: center;
+  }
+  .partners-heading {
+    font-size: 3rem;
+  }
 }

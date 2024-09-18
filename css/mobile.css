@@ -52,4 +52,23 @@
     gap: 40px;
     padding: 0px 5% 100px 5%;
   }
+
+  /* our partners */
+  .partners-container {
+    padding: 0px 5% 0px 5%;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .partners-grid-container {
+    justify-content: center;
+  }
+  .partners-right {
+    padding-top: 50px;
+  }
+  .partners-heading {
+    font-size: 2.5rem;
+  }
 }
