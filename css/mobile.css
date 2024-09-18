@@ -56,7 +56,6 @@
   /* our partners */
   .partners-container {
     padding: 0px 5% 0px 5%;
-    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,5 +69,14 @@
   }
   .partners-heading {
     font-size: 2.5rem;
+  }
+
+  /* celebrity-mindsets */
+  .cards-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 28%);
+    grid-template-rows: repeat(4, auto);
+    gap: 3%;
+    justify-content: center;
   }
 }

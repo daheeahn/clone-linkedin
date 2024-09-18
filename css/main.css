@@ -76,6 +76,9 @@ nav {
 }
 
 /* our-partners */
+.partners-container {
+  margin-bottom: 120px;
+}
 .partners-right > video {
   width: 100%;
   height: auto;
@@ -117,4 +120,33 @@ nav {
   grid-template-columns: repeat(3, 25%);
   grid-template-rows: repeat(2, auto);
   gap: 5%;
+}
+
+/* common */
+.section-header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 45px;
+}
+.section-main-header {
+  font-size: 2.5rem;
+  color: white;
+  margin-top: 20px;
+}
+.section-sub-header {
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 10px;
+}
+
+/* celebrity-mindsets */
+.celebrity-mindsets-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 150px;
+}
+.cards-grid-container img {
+  width: 100%;
+  height: 100%;
 }
