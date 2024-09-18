@@ -157,22 +157,20 @@
   }
 
   /* try-free */
-  .try-free-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 60px 200px 150px 200px;
+  .try-free-mockup-container > .first-mockup {
+    width: 100px;
+    height: 200px;
   }
-  .try-free-mockup-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  .try-free-mockup-container > .second-mockup {
+    width: 150px;
+    height: 300px;
   }
-  .try-free-mockup {
-    margin: 0px 15px;
+  .try-free-mockup-container > .third-mockup {
+    width: 200px;
+    height: 400px;
   }
 
+  /* what-users-think */
   .what-users-think-container {
     margin-bottom: 120px;
   }

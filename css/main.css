@@ -172,3 +172,19 @@ nav {
   height: 1.5px;
   background-color: #313131;
 }
+
+/* try-free */
+.try-free-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px 2%;
+  margin-bottom: 100px;
+}
+.try-free-mockup-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3%;
+}
