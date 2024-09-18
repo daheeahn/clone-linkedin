@@ -96,4 +96,26 @@
     width: 450px;
     height: 260px;
   }
+
+  /* mindset-features */
+  .mindset-features-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10%;
+    margin-bottom: 80px;
+    gap: 5%;
+  }
+  .mindset-features-container > .image-box-left {
+    display: none;
+  }
+  .mindset-features-container > .image-box-bottom {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  .mindset-features-container > .image-box-bottom > img {
+    width: 80%;
+    height: auto;
+  }
 }

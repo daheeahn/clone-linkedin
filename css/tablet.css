@@ -99,4 +99,29 @@
     width: 400px;
     height: 225px;
   }
+
+  /* mindset-features */
+  .mindset-features-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 5% 0px 3%;
+    margin-bottom: 80px;
+    gap: 1%;
+  }
+  .mindset-features-container > .image-box-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mindset-features-container > .image-box-left > img {
+    width: 80%;
+    height: auto;
+  }
+  .mindset-features-container > .explanation-box {
+    flex: 1;
+  }
+  .mindset-features-container > .image-box-bottom {
+    display: none;
+  }
 }

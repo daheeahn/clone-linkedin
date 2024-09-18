@@ -111,9 +111,25 @@
   .mindset-features-container {
     display: flex;
     flex-direction: row;
-    padding: 0px 200px 0px 300px;
+    padding: 0px 10% 0px 5%;
     margin-bottom: 80px;
-    gap: 40px;
+    gap: 5%;
+  }
+  .mindset-features-container > .image-box-left {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+  .mindset-features-container > .image-box-left > img {
+    width: 80%;
+    height: auto;
+  }
+  .mindset-features-container > .explanation-box {
+    flex: 1.2;
+  }
+  .mindset-features-container > .image-box-bottom {
+    display: none;
   }
 
   .division {
