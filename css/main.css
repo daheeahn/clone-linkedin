@@ -134,10 +134,25 @@ nav {
   color: white;
   margin-top: 20px;
 }
+.section-main-header {
+  font-size: 2.5rem;
+  color: white;
+}
 .section-sub-header {
   font-size: 1.5rem;
   color: white;
   margin-top: 10px;
+}
+.explanation-sub-header-paragraph {
+  color: #fff;
+  font-size: 1.25rem;
+  line-height: 30px;
+}
+.explanation-main-header {
+  color: #00a84f;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 /* celebrity-mindsets */

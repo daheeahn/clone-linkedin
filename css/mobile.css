@@ -79,4 +79,21 @@
     gap: 3%;
     justify-content: center;
   }
+
+  /* what-is-mindset */
+  .what-is-mindset-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 8%;
+    margin-bottom: 80px;
+  }
+  .what-is-mindset-right {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .what-is-mindset-right > iframe {
+    width: 450px;
+    height: 260px;
+  }
 }
