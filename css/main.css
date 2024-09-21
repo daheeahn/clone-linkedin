@@ -188,3 +188,46 @@ nav {
   justify-content: center;
   gap: 3%;
 }
+
+/* what-users-think */
+.what-users-think-container {
+  margin-bottom: 10%;
+}
+.star-container {
+  margin-bottom: 10px;
+}
+.star {
+  width: 15px;
+  height: 15px;
+  margin-right: 7px;
+}
+.review-title {
+  color: #000;
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.review-content {
+  color: #245046;
+  font-size: 0.9rem;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+.reviewer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.reviewer-img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.reviewer-name {
+  color: #000;
+  font-size: 1.25rem;
+  color: #245046;
+  margin-left: 12px;
+  font-weight: bold;
+}

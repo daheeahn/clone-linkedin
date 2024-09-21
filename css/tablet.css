@@ -162,4 +162,25 @@
     width: 180px;
     height: 360px;
   }
+
+  /* what-users-think */
+  .review-list-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 5%;
+    gap: 15px;
+    overflow-x: scroll;
+  }
+  .review-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 350px;
+    width: 350px;
+    height: 330px;
+    border-radius: 15px;
+    background-color: #ebebeb;
+    padding: 25px;
+    padding-top: 20px;
+  }
 }
