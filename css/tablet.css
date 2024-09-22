@@ -188,4 +188,38 @@
   .qna-container {
     width: 70%;
   }
+
+  /* subscribe */
+  .subscribe-container > .content {
+    width: 60%;
+  }
+  .subscribe-container > .button-container-mobile {
+    display: none;
+  }
+  .subscribe-container > .button-container-general {
+    width: 500px;
+    height: 70px;
+    background-color: #00a84f;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+  }
+  .subscribe-container > .button-container-general > input {
+    border: none;
+    width: 350px;
+    margin: 3px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 1.2rem;
+  }
+  .subscribe-container > .button-container-general > button {
+    border: none;
+    width: 150px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #00a84f;
+    font-size: 1.2rem;
+    color: #fff;
+  }
 }

@@ -260,3 +260,25 @@ nav {
   color: #fff;
   font-size: 1rem;
 }
+
+/* subscribe */
+.subscribe-container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.subscribe-container > .title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 18px;
+}
+.subscribe-container > .content {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 40px;
+  text-align: center;
+  line-height: 28px;
+}
