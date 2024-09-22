@@ -282,3 +282,47 @@ nav {
   text-align: center;
   line-height: 28px;
 }
+
+/* footer */
+footer {
+  background-color: #245046;
+}
+footer > .division-container {
+  height: 1.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #245046;
+}
+footer > .division-container > .division {
+  width: 95%;
+  height: 0.5px;
+  background-color: #a8b5ac;
+}
+footer > .copyright-text {
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #245046;
+}
+footer > .info-container > .logo-container > .logo {
+  width: 160px;
+  height: 45px;
+  margin-bottom: 15px;
+}
+footer > .info-container > .logo-container > .app-store {
+  width: 130px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+footer > .info-container > .logo-container > .google-play {
+  width: 125px;
+  height: 40px;
+}
+footer > .info-container .menu-item a {
+  color: #fff;
+  font-size: 1rem;
+}

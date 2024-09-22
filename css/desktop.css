@@ -177,7 +177,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 0px 200px;
+    padding: 0px 10%;
     gap: 15px;
   }
   .review-item-container {
@@ -232,81 +232,42 @@
   }
 
   /* footer */
-  footer {
-    height: 300px;
-    background-color: #245046;
-  }
   footer > .info-container {
-    width: 100%;
-    padding: 50px 200px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     background-color: #245046;
+    padding: 50px 5%;
   }
-  footer > .info-container > .left-container {
+  footer > .info-container > .logo-container {
+    flex: 2;
+  }
+  footer > .info-container > .menu-container {
+    flex: 1;
+  }
+  footer > .info-container > .logo-container {
     display: flex;
     flex-direction: column;
     margin-right: 40px;
   }
-  footer > .info-container > .left-container > .logo {
-    width: 160px;
-    height: 45px;
-    margin-bottom: 15px;
-  }
-  footer > .info-container > .left-container > .app-store {
-    width: 130px;
-    height: 40px;
-    margin-bottom: 10px;
-  }
-  footer > .info-container > .left-container > .google-play {
-    width: 125px;
-    height: 40px;
-  }
-  footer > .info-container > .right-container {
-    display: grid;
-    grid-template-columns: 220px 220px 220px;
-    grid-template-rows: 50px 50px 50px 50px;
-    gap: 5px;
-  }
-  footer > .info-container > .right-container .menu-category {
+  footer > .info-container .menu-category {
     color: #fff;
     font-weight: bold;
     font-size: 1.2rem;
+    margin-bottom: 24px;
   }
-  footer > .info-container > .right-container .menu-item a {
-    color: #fff;
-    font-size: 1rem;
+  footer > .info-container .menu-item {
+    margin-bottom: 18px;
   }
-  footer > .info-container > .right-container .sns-container {
+  .sns-container-large-screen {
     display: flex;
     flex-direction: row;
     gap: 15px;
   }
-  footer > .info-container > .right-container .sns-item {
-    width: 30px;
-    height: 30px;
-    color: #fff;
+  .sns-container-small-screen {
+    display: none;
   }
-  footer > .division-container {
-    height: 1.5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #245046;
-  }
-  footer > .division-container > .division {
-    width: 95%;
-    height: 0.5px;
-    background-color: #a8b5ac;
-  }
-  footer > .copyright-text {
-    color: #fff;
-    font-size: 0.9rem;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #245046;
+  .sns-item {
+    width: 24px;
+    height: 24px;
   }
 }
