@@ -183,4 +183,9 @@
     padding: 25px;
     padding-top: 20px;
   }
+
+  /* faq */
+  .qna-container {
+    width: 70%;
+  }
 }

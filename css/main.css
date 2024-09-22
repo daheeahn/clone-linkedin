@@ -172,6 +172,10 @@ nav {
   height: 1.5px;
   background-color: #313131;
 }
+.division-faq-gap {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
 
 /* try-free */
 .try-free-container {
@@ -230,4 +234,29 @@ nav {
   color: #245046;
   margin-left: 12px;
   font-weight: bold;
+}
+
+/* faq */
+.faq-container {
+  margin-bottom: 70px;
+}
+.faq-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.question-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+}
+.question-text {
+  color: #fff;
+  font-size: 1.2rem;
+}
+.answer-text {
+  color: #fff;
+  font-size: 1rem;
 }
