@@ -2,7 +2,6 @@
   /* navigation */
   nav {
     padding: 20px 10%; /* ✅ 가로길이에 따라 유동적으로 padding %로 조절 */
-    background-color: #df2b2be0;
   }
   nav > ul {
     display: flex;
@@ -35,7 +34,6 @@
     width: 400px;
   }
   .header-info-text-container .title {
-    font-size: 3rem;
     font-weight: bold;
     color: #fff;
     margin-bottom: 20px;
@@ -89,9 +87,9 @@
   .what-is-mindset-container {
     display: flex;
     flex-direction: row;
-    padding: 0px 10%;
+    padding-left: 10%;
+    padding-right: 10%;
     gap: 3%;
-    margin-bottom: 80px;
   }
   .what-is-mindset-left {
     flex: 1;

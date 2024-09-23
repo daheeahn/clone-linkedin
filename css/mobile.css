@@ -2,7 +2,6 @@
   /* navigation */
   nav {
     padding: 15px 20px;
-    background-color: #fff78ddf;
   }
   nav ul {
     display: none;
@@ -30,7 +29,6 @@
     padding-bottom: 70px;
   }
   .header-info-text-container .title {
-    font-size: 2.5rem;
     font-weight: bold;
     color: #fff;
     margin-bottom: 20px;
@@ -89,8 +87,8 @@
   .what-is-mindset-container {
     display: flex;
     flex-direction: column;
-    padding: 0px 10%;
-    margin-bottom: 80px;
+    padding-left: 10%;
+    padding-right: 10%;
   }
   .what-is-mindset-right {
     display: flex;
