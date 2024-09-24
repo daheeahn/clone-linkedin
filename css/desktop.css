@@ -57,7 +57,7 @@
     padding: 0px 5% 100px 5%;
   }
 
-  /* our partners */
+  /* our-partners */
   .partners-container {
     padding: 0px 10% 0px 15%;
     display: flex;
@@ -73,6 +73,12 @@
   }
   .partners-heading {
     font-size: 3.5rem;
+  }
+  .partner-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 300px;
   }
 
   /* celebrity-mindsets */
