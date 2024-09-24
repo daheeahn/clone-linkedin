@@ -361,3 +361,21 @@ footer > .info-container .menu-item a {
   color: #fff;
   font-size: 1rem;
 }
+
+/* Animation for each section */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fade-in {
+  opacity: 0;
+}
+.fade-in.show {
+  animation: fadeIn 1s forwards;
+}
