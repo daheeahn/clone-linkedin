@@ -8,8 +8,29 @@
   scroll-behavior: smooth;
 }
 
+:root {
+  --main-green-color: #00a84f;
+  --sub-green-color: #245046;
+}
+
 body {
   background-color: black;
+}
+
+.partners-heading,
+.featured-in-title,
+.partner-name-text,
+.section-main-header,
+.section-sub-header,
+.explanation-sub-header-paragraph,
+.question-text,
+.answer-text,
+.subscribe-container > .title,
+.subscribe-container > .content,
+footer > .copyright-text,
+footer > .info-container .menu-item a {
+  color: white;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 /* navigation */
@@ -73,7 +94,6 @@ nav {
   margin-top: 50px;
 }
 .featured-in-title {
-  color: #fff;
   font-size: 1.3rem;
   text-align: center;
   margin-bottom: 20px;
@@ -103,12 +123,11 @@ nav {
 }
 .partner-name-text {
   margin-top: 10px;
-  color: #fff;
   font-size: 1rem;
   text-align: center;
 }
 .partners-title {
-  color: #00a84f;
+  color: var(--main-green-color);
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 5px;
@@ -116,7 +135,6 @@ nav {
   font-family: "Trebuchet MS", sans-serif;
 }
 .partners-heading {
-  color: #fff;
   font-weight: bold;
   text-align: left;
   margin-bottom: 15px;
@@ -138,24 +156,22 @@ nav {
 }
 .section-main-header {
   font-size: 2.5rem;
-  color: white;
   margin-top: 20px;
 }
 .section-sub-header {
   font-size: 1.5rem;
-  color: white;
   margin-top: 10px;
 }
 .explanation-sub-header-paragraph {
-  color: #fff;
   font-size: 1.25rem;
   line-height: 30px;
 }
 .explanation-main-header {
-  color: #00a84f;
+  color: var(--main-green-color);
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 20px;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 #features {
@@ -222,12 +238,14 @@ nav {
   font-size: 1.25rem;
   margin-bottom: 10px;
   font-weight: bold;
+  font-family: "Trebuchet MS", sans-serif;
 }
 .review-content {
-  color: #245046;
+  color: var(--sub-green-color);
   font-size: 0.9rem;
   line-height: 25px;
   margin-bottom: 20px;
+  font-family: "Trebuchet MS", sans-serif;
 }
 .reviewer-container {
   display: flex;
@@ -243,7 +261,7 @@ nav {
 .reviewer-name {
   color: #000;
   font-size: 1.25rem;
-  color: #245046;
+  color: var(--sub-green-color);
   margin-left: 12px;
   font-weight: bold;
 }
@@ -270,11 +288,9 @@ nav {
   padding: 30px 0px;
 }
 .question-text {
-  color: #fff;
   font-size: 1.2rem;
 }
 .answer-text {
-  color: #fff;
   font-size: 1rem;
 }
 .accordion {
@@ -307,12 +323,10 @@ nav {
 .subscribe-container > .title {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #fff;
   margin-bottom: 18px;
 }
 .subscribe-container > .content {
   font-size: 1.2rem;
-  color: #fff;
   margin-bottom: 40px;
   text-align: center;
   line-height: 28px;
@@ -320,14 +334,13 @@ nav {
 
 /* footer */
 footer {
-  background-color: #245046;
+  background-color: var(--sub-green-color);
 }
 footer > .division-container {
   height: 1.5px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #245046;
 }
 footer > .division-container > .division {
   width: 95%;
@@ -335,13 +348,11 @@ footer > .division-container > .division {
   background-color: #a8b5ac;
 }
 footer > .copyright-text {
-  color: #fff;
   font-size: 0.9rem;
   padding: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #245046;
 }
 footer > .info-container > .logo-container > .logo {
   width: 160px;
@@ -358,7 +369,6 @@ footer > .info-container > .logo-container > .google-play {
   height: 40px;
 }
 footer > .info-container .menu-item a {
-  color: #fff;
   font-size: 1rem;
 }
 
