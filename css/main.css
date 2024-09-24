@@ -300,8 +300,8 @@ nav {
   max-height: 300px;
 }
 .accordion:focus > .accordion-arrow {
-  transition: 1s;
-  rotate: 180deg;
+  transition: 0.7s;
+  transform: rotate(180deg);
 }
 .accordion:hover {
   opacity: 0.9;
